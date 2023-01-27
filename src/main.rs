@@ -57,4 +57,4 @@ fn to_minus2(num: i32) -> u32 {
     res.parse().unwrap()
 }
 
-fn main() {println!("{}", to_minus2(3))}
+fn main() {}
