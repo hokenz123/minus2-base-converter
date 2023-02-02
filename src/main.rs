@@ -43,12 +43,12 @@ fn to_minus2(num: i32) -> u32 {
             value += 1;
         }
         if rem == 1 {
-            let mut lol = "1".to_string().to_owned();
+            let mut lol = "1".to_owned();
             lol.push_str(&res);
             res = lol;
         }
         if rem == 0 {
-            let mut lol = "0".to_string().to_owned();
+            let mut lol = "0".to_owned();
             lol.push_str(&res);
             res = lol;
         }
